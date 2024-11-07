@@ -1,0 +1,16 @@
+# This includes all packages that are used in development, including all
+# packages that are required by textract itself (python), packages for
+# documentation builds (python-doc)
+
+-r python
+
+# needed for tests/run.py script to read .travis.yml file
+coveralls==4.0.1
+nose==1.3.7
+pycodestyle==2.12.1
+PyYAML==6.0.2
+pytest==8.3.3
+requests==2.32.3
+
+# needed for managing versions
+bumpversion==0.6.0
