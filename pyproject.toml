@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "textract"
-version = "0.1.0"
+version = "1.6.6"
 description = ""
 authors = ["Steven Leong <howsenpl@hotmail.com>"]
 license = "MIT"
